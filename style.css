@@ -36,7 +36,8 @@ html {
   }
 }
 body {
-  line-height: 1.6;
+  line-height: 1.4;
+  font-family: amazon-normal;
 }
 
 /* mobile menu */
@@ -89,7 +90,7 @@ body {
 .shopping-cart {
   background: url("assets/sprite.png") no-repeat -22px -482px;
   width: 70px;
-  height: 39px;
+  height: 50px;
 }
 .right-menu {
   display: flex;
@@ -126,16 +127,66 @@ body {
   height: 7vh;
   color: #fff;
   font-size: 13px;
-  font-family: amazon-normal;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.delivery >*{
+.delivery > * {
   margin-left: 1rem;
 }
 .delivery-map {
   background: url("assets/sprite.png") no-repeat -157px -683px;
   width: 31px;
   height: 36px;
+}
+
+/* main */
+main {
+  margin: 1rem;
+}
+.store-link a {
+  color: rgb(0, 113, 133);
+  text-decoration: none;
+}
+.store-link a,
+.ratings span,
+.product-desc {
+  font-size: 13px;
+}
+.ratings img {
+  width: 20vw;
+}
+.product-title,
+.product-desc {
+  display: flex;
+  justify-content: space-between;
+}
+.badge {
+  font-size: 13px;
+}
+.badge .primary-left {
+  background-color: rgb(35, 47, 62);
+  color: #fff;
+  padding: 0.3rem;
+}
+.badge .primary-right {
+  background-color: rgb(35, 47, 62);
+  color: rgb(246, 153, 49);
+  padding: 0.3rem;
+}
+.badge .secondary {
+  font-size: 12px;
+}
+.showcase-img img {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+.img-view {
+  width: 3vw;
+  background-color: rgb(0, 113, 133);
+  border-radius: 20px;
+}
+.img-view ul {
+  display: flex;
 }
