@@ -1,0 +1,192 @@
+:root {
+  --primary-color: rgb(35, 47, 62);
+  --secondary-color: rgba(14, 128, 52, 0.9); /*links color*/
+  --overlay-color: rgb(15, 17, 17); /*hamburger menu background color*/
+  --menu-speed: 0.75s; /*hamburger menu toggle speed*/
+}
+@font-face {
+  font-family: amazon-italic;
+  src: url(https://m.media-amazon.com/images/S/sash/WOnTLzkiaEccV7F.woff2);
+  font-family: amazon-bold;
+  src: url(https://m.media-amazon.com/images/S/sash/KFPk-9IF4FqAqY-.woff2);
+  font-family: amazon-normal;
+  src: url(https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  /* The default font size of the browser is 16px, so if we want 1rem to be equal to 10px, we divide 10px by 16px = 62.5% */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 70%;
+  }
+}
+body {
+  line-height: 1.4;
+  font-family: amazon-normal;
+}
+
+/* mobile menu */
+.mobile-menu {
+  background-color: rgb(35, 47, 62);
+  width: 100vw;
+  height: 17vh;
+  padding: 1.5rem;
+}
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+}
+.line-1 {
+  background: url("assets/sprite.png") no-repeat -40px -756px;
+  width: 40px;
+  height: 4px;
+
+  padding-top: 1rem;
+}
+.line-2 {
+  background: url("assets/sprite.png") no-repeat -40px -772px;
+  width: 40px;
+  height: 4px;
+  padding-top: 1rem;
+}
+.line-3 {
+  background: url("assets/sprite.png") no-repeat -40px -788px;
+  width: 40px;
+  height: 4px;
+  padding-top: 1rem;
+}
+.logo {
+  background: url("assets/sprite.png") no-repeat -21px -828px;
+  width: 130px;
+  height: 50px;
+}
+.left-menu {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+}
+
+.sign-in {
+  background: url("assets/sprite.png") no-repeat -284px -606px;
+  width: 47px;
+  height: 48px;
+}
+
+.shopping-cart {
+  background: url("assets/sprite.png") no-repeat -22px -482px;
+  width: 70px;
+  height: 50px;
+}
+.right-menu {
+  display: flex;
+  width: 40vw;
+  justify-content: center;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar input {
+  width: 80vw;
+  height: 6vh;
+  border-radius: 9px;
+  /* position: relative; */
+}
+.search-bar button {
+  background: url("assets/sprite.png") no-repeat -22px -342px;
+  width: 30px;
+  height: 30px;
+  border: transparent;
+}
+.search-button {
+  background-color: #fcbb6a;
+  width: 12vw;
+  height: 5vh;
+  border-radius: 9px;
+}
+.delivery {
+  background-color: rgb(55, 71, 90);
+  width: 100vw;
+  height: 7vh;
+  color: #fff;
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.delivery > * {
+  margin-left: 1rem;
+}
+.delivery-map {
+  background: url("assets/sprite.png") no-repeat -157px -683px;
+  width: 31px;
+  height: 36px;
+}
+
+/* main */
+main {
+  margin: 1rem;
+}
+.store-link a {
+  color: rgb(0, 113, 133);
+  text-decoration: none;
+}
+.store-link a,
+.ratings span,
+.product-desc {
+  font-size: 13px;
+}
+.ratings img {
+  width: 20vw;
+}
+.product-title,
+.product-desc {
+  display: flex;
+  justify-content: space-between;
+}
+.badge {
+  font-size: 13px;
+}
+.badge .primary-left {
+  background-color: rgb(35, 47, 62);
+  color: #fff;
+  padding: 0.3rem;
+}
+.badge .primary-right {
+  background-color: rgb(35, 47, 62);
+  color: rgb(246, 153, 49);
+  padding: 0.3rem;
+}
+.badge .secondary {
+  font-size: 12px;
+}
+.showcase-img img {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+.img-view {
+  width: 3vw;
+  background-color: rgb(0, 113, 133);
+  border-radius: 20px;
+}
+.img-view ul {
+  display: flex;
+}
