@@ -4,6 +4,15 @@
   --overlay-color: rgb(15, 17, 17); /*hamburger menu background color*/
   --menu-speed: 0.75s; /*hamburger menu toggle speed*/
 }
+@font-face {
+  font-family: amazon-italic;
+  src: url(https://m.media-amazon.com/images/S/sash/WOnTLzkiaEccV7F.woff2);
+  font-family: amazon-bold;
+  src: url(https://m.media-amazon.com/images/S/sash/KFPk-9IF4FqAqY-.woff2);
+  font-family: amazon-normal;
+  src: url(https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,8 +36,6 @@ html {
   }
 }
 body {
-  font-family: "Forum", cursive;
-  font-family: "Open Sans", sans-serif;
   line-height: 1.6;
 }
 
@@ -36,7 +43,7 @@ body {
 .mobile-menu {
   background-color: rgb(35, 47, 62);
   width: 100vw;
-  height: 15vh;
+  height: 17vh;
   padding: 1.5rem;
 }
 .menu-items {
@@ -102,25 +109,33 @@ body {
   /* position: relative; */
 }
 .search-bar button {
+  background: url("assets/sprite.png") no-repeat -22px -342px;
+  width: 30px;
+  height: 30px;
+  border: transparent;
+}
+.search-button {
   background-color: #fcbb6a;
   width: 12vw;
   height: 5vh;
   border-radius: 9px;
-  /* position: relative;
-bottom: 4rem;
-left: 28rem; */
-
-
-}
-.search-button{
-    background: url('assets/sprite.png') no-repeat -22px -342px;
-	width: 30px;
-	height: 30px;
-    border: 2px solid red;
-    
 }
 .delivery {
   background-color: rgb(55, 71, 90);
   width: 100vw;
   height: 7vh;
+  color: #fff;
+  font-size: 13px;
+  font-family: amazon-normal;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.delivery >*{
+  margin-left: 1rem;
+}
+.delivery-map {
+  background: url("assets/sprite.png") no-repeat -157px -683px;
+  width: 31px;
+  height: 36px;
 }
