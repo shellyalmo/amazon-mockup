@@ -1,9 +1,3 @@
-:root {
-  --primary-color: rgb(35, 47, 62);
-  --secondary-color: rgba(14, 128, 52, 0.9); /*links color*/
-  --overlay-color: rgb(15, 17, 17); /*hamburger menu background color*/
-  --menu-speed: 0.75s; /*hamburger menu toggle speed*/
-}
 @font-face {
   font-family: amazon-italic;
   src: url(https://m.media-amazon.com/images/S/sash/WOnTLzkiaEccV7F.woff2);
@@ -243,7 +237,8 @@ main {
   color: rgb(86, 89, 89);
   font-size: 15px;
 }
-.shipping-details {
+.shipping-details,
+.see-more {
   color: rgb(0, 113, 133);
   font-size: 15px;
 }
@@ -255,18 +250,22 @@ main {
   color: rgb(0, 118, 0);
   font-size: 18px;
 }
-.stock {
+.stock,
+.about {
   font-size: 15px;
 }
-.stock-btn button {
+.stock-btn {
   font-size: 13px;
   padding: 0.5rem;
+  background-color: #f0f2f2;
   font-family: amazon-normal;
+  border-radius: 10px;
+  border: 0.5px solid rgba(204, 201, 201, 0.836);
 }
 .drop-down-btn {
-  background: url(./assets/sprite2.png) no-repeat -10px -122px;
-  width: 28px;
-  height: 18px;
+  background: url("./assets/sprite2.png") no-repeat -732px -176px;
+  width: 14px;
+  height: 8px;
 }
 
 .add-cart-btn,
@@ -293,7 +292,31 @@ main {
 .loritta {
   color: rgb(0, 113, 133);
 }
-.sizes{
+.sizes {
   display: flex;
   justify-content: space-between;
+}
+
+.about-list {
+  list-style: disc;
+  margin-left: 20px;
+  padding-left: 0;
+}
+.see-more {
+  display: flex;
+  align-items: center;
+}
+.explore {
+  color: rgb(34, 47, 63);
+  font-size: 18px;
+  font-weight: 700;
+}
+.explore-gallery {
+  display: grid;
+  grid-template-columns: repeat(9, 2fr);
+  width: 100vw;
+  gap: 1rem;
+}
+.explore-img img {
+  width: 42vw;
 }
