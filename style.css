@@ -306,7 +306,8 @@ main {
   display: flex;
   align-items: center;
 }
-.explore {
+.explore,
+.frequently-bought >span{
   color: rgb(34, 47, 63);
   font-size: 18px;
   font-weight: 700;
@@ -319,4 +320,25 @@ main {
 }
 .explore-img img {
   width: 42vw;
+}
+.plus {
+  font-size: 18px;
+  color: rgb(86, 89, 89);
+}
+.frequently-bought-images {
+  margin: 0 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  padding: 1rem;
+  border: 1px solid rgba(202, 200, 200, 0.818);
+  border-radius: 10px;
+}
+.frequently-bought-images .buy-both{
+  font-size: 18px;
+}
+.buy-both{
+  padding-right: 5rem;
+  padding-left: 7rem;
 }
