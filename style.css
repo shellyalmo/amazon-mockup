@@ -307,7 +307,8 @@ main {
   align-items: center;
 }
 .explore,
-.frequently-bought >span{
+.frequently-bought,
+.might-like > span {
   color: rgb(34, 47, 63);
   font-size: 18px;
   font-weight: 700;
@@ -335,10 +336,70 @@ main {
   border: 1px solid rgba(202, 200, 200, 0.818);
   border-radius: 10px;
 }
-.frequently-bought-images .buy-both{
+.frequently-bought-images .buy-both {
   font-size: 18px;
 }
-.buy-both{
+.buy-both {
   padding-right: 5rem;
   padding-left: 7rem;
+}
+.sponsored {
+  font-size: 11px;
+  font-weight: 100;
+  color: rgb(85, 85, 85);
+}
+.might-like-img img {
+  width: 100%;
+}
+.might-like {
+  line-height: 1.8rem;
+}
+.might-like-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.might-like-info {
+  text-align: center;
+}
+.might-like-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+.might-like-desc {
+  font-size: 15px;
+  font-weight: normal;
+}
+.might-like-stars img {
+  width: 40%;
+}
+.might-like-ratings {
+  font-size: 11px;
+  font-weight: normal;
+  color: rgb(86, 89, 89);
+}
+.might-like-info .secondary-price {
+  font-size: 13px;
+  font-weight: normal;
+}
+.might-like-info .primary-price {
+  font-size: 22px;
+  font-weight: normal;
+  top: -1rem;
+  position: relative;
+}
+.prime {
+  background: url("./assets/sprite3.png") no-repeat -276px -146px;
+  width: 84px;
+  height: 24px;
+  transform: scale(0.4) translateX(20px) translateY(-70px);
+}
+.might-like-info {
+  display: flex;
+  justify-content: flex-start;
+}
+.might-like-item {
+  width: 35%;
+}
+.might-like-price {
+  line-height: 4rem;
 }
