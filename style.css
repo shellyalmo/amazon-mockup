@@ -182,11 +182,53 @@ main {
   margin-top: 1rem;
 }
 
-.img-view {
-  width: 3vw;
-  background-color: rgb(0, 113, 133);
-  border-radius: 20px;
-}
-.img-view ul {
+.images-scroll {
+  list-style: none;
   display: flex;
+  justify-content: center;
+  width: 360px;
+  background-color: #fff;
+}
+
+.images-scroll .img-view::before {
+  content: "\2022";
+  color: rgb(0, 113, 133);
+  font-weight: bold;
+  display: inline-block;
+  height: 9px;
+  line-height: 16px;
+  font-size: 24px;
+  margin-left: 1rem;
+}
+.colors-title {
+  line-height: 3.5rem;
+}
+.colors-title .color {
+  font-size: 15px;
+  color: rgb(15, 17, 17);
+}
+.colors-title .color-name {
+  font-size: 15px;
+  font-weight: 900;
+}
+.color-img img {
+  max-width: 80%;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 90%;
+}
+.colors-gallery {
+  display: flex;
+  justify-content: space-around;
+}
+.color-price {
+  margin-left: 1.5rem;
+}
+.size-guide {
+  color: rgb(0, 113, 133);
+  font-size: 15px;
+}
+.primary-price {
+  color: rgb(15, 17, 17);
+  font-size: 38px;
 }
