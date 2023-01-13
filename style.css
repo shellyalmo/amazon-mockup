@@ -308,7 +308,8 @@ main {
 }
 .explore,
 .frequently-bought,
-.might-like > span {
+.might-like,
+.from-brand > span {
   color: rgb(34, 47, 63);
   font-size: 18px;
   font-weight: 700;
@@ -402,4 +403,30 @@ main {
 }
 .might-like-price {
   line-height: 4rem;
+}
+.empty {
+  height: 4vh;
+}
+.fixed-img {
+  background-color: #666666;
+  color: white;
+  font-size: 15px;
+  height: 7vh;
+  padding: 0.5rem;
+  text-align: left;
+}
+.fixed-img:after {
+  content: "Cute animal fluffy socks";
+  color: black;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid red;
+  height: 20vh;
+  width: 20vw;
+  z-index: 3;
+}
+.brand-gallery{
+  z-index: 1;
+  height: 5vh;
 }
