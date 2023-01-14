@@ -84,6 +84,9 @@ body {
   width: 47px;
   height: 48px;
 }
+.desktop-main {
+  display: none;
+}
 
 .shopping-cart {
   background: url("assets/sprite.png") no-repeat -22px -482px;
