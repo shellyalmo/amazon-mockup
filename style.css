@@ -295,6 +295,7 @@ main {
 }
 
 .add-cart-btn,
+.buy-with-add-cart-btn,
 .buy-now-btn {
   height: 6vh;
   border-radius: 15px;
@@ -305,7 +306,8 @@ main {
 .buy-now-btn {
   background-color: #ffa41c;
 }
-.add-cart-btn {
+.add-cart-btn,
+.buy-with-add-cart-btn {
   background-color: #ffd814;
 }
 .ships-sold-grid {
@@ -472,7 +474,8 @@ main {
     justify-content: space-between;
     height: 9rem;
   }
-  .desktop-logo-container {
+  .desktop-logo-container,
+  .delivery-israel {
     border: 1px solid transparent;
     padding: 1rem;
   }
@@ -482,7 +485,8 @@ main {
     width: 130px;
     height: 50px;
   }
-  .desktop-logo-container:hover {
+  .desktop-logo-container:hover,
+  .delivery-israel:hover {
     cursor: pointer;
     border-radius: 2px;
     border-color: #fff;
@@ -605,6 +609,7 @@ main {
   }
   .desktop-main-col-three {
     margin-left: 4%;
+    width: 20vw;
   }
   .img-box img {
     width: 70%;
@@ -713,5 +718,9 @@ main {
     left: 40vw;
     width: 20vw;
     position: absolute;
+  }
+  .buy-with-add-cart-btn {
+    width: 6vw;
+    height: 3vh;
   }
 }
