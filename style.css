@@ -102,7 +102,7 @@ body {
   align-items: center;
 }
 .search-bar input {
-  width: 80vw;
+  width: 70vw;
   height: 6vh;
   border-radius: 9px;
   /* position: relative; */
@@ -136,12 +136,14 @@ body {
   margin-left: 1rem;
 }
 .delivery-map {
-  background: url("assets/sprite.png") no-repeat -157px -683px;
-  width: 31px;
-  height: 36px;
+  background: url("./assets/sprtie5.png") no-repeat -71px -340px;
+  width: 17px;
+  height: 21px;
+  position: absolute;
 }
 .delivery-israel {
   display: none;
+  position: relative;
 }
 
 /* main */
@@ -454,11 +456,20 @@ main {
     align-items: center;
     justify-content: space-between;
   }
+  .desktop-logo-container {
+    border: 1px solid transparent;
+    padding: 1rem;
+  }
   .desktop-logo {
     background: url("assets/sprite.png") no-repeat -21px -828px;
     transform: translateY(1rem);
     width: 130px;
     height: 50px;
+  }
+  .desktop-logo-container:hover {
+    cursor: pointer;
+    border-radius: 2px;
+    border-color: #fff;
   }
   .desktop-searchbar {
     display: flex;
@@ -477,7 +488,7 @@ main {
     align-items: center;
   }
   .desktop-searchbar input {
-    width: 70vw;
+    width: 65vw;
     height: 3vh;
   }
   .desktop-returns-orders {
@@ -527,20 +538,26 @@ main {
     display: none;
   }
   .delivery-israel {
-    display: inline-block;
-    border: 1px solid red;
+    display: flex;
+    width: 4vw;
+    position: relative;
   }
   .deliver-to {
     color: rgb(204, 204, 204);
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 14px;
+    position: absolute;
+    left: 3rem;
+    bottom: 1rem;
   }
   .israel {
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 15px;
+    position: absolute;
+    left: 3rem;
   }
   .mobile-main {
     display: none;
