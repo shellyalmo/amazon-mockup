@@ -119,7 +119,7 @@ body {
   height: 5vh;
   border-radius: 9px;
 }
-.secondary-menu{
+.secondary-menu {
   display: none;
 }
 .delivery {
@@ -148,13 +148,15 @@ body {
 main {
   margin: 1rem;
 }
-.store-link a ,.desktop-ratings{
+.store-link a,
+.desktop-ratings {
   color: rgb(0, 113, 133);
   text-decoration: none;
 }
 .store-link a,
 .ratings span,
-.product-desc,.desktop-ratings {
+.product-desc,
+.desktop-ratings {
   font-size: 13px;
 }
 .ratings img {
@@ -506,17 +508,16 @@ main {
     justify-content: flex-start;
     color: white;
     font-size: 1.8rem;
-
   }
-  .all-logo{
-    background: url('./assets/sprtie5.png') no-repeat -172px -255px;
-	width: 18px;
-	height: 14px;
+  .all-logo {
+    background: url("./assets/sprtie5.png") no-repeat -172px -255px;
+    width: 18px;
+    height: 14px;
   }
-  .all{
+  .all {
     display: flex;
   }
-  .left-items{
+  .left-items {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -541,58 +542,58 @@ main {
     font-weight: 700;
     line-height: 15px;
   }
-  .mobile-main{
+  .mobile-main {
     display: none;
   }
-  .desktop-main{
+  .desktop-main {
     margin: 0 70rem;
   }
-  .back-to-results{
-    color: rgb(86,89,89);
+  .back-to-results {
+    color: rgb(86, 89, 89);
     font-size: 12px;
     padding: 1rem;
   }
-  .back-to-results span:hover{
+  .back-to-results span:hover {
     text-decoration: underline;
     cursor: pointer;
   }
-  .desktop-main-four-cols{
+  .desktop-main-four-cols {
     display: flex;
     justify-content: center;
   }
-  .desktop-main-col-one{
+  .desktop-main-col-one {
     display: flex;
     flex-direction: column;
   }
-  .img-box img{
+  .img-box img {
     width: 6%;
     border: 1px solid black;
   }
-  .desktop-main-col-two{
+  .desktop-main-col-two {
     display: flex;
     flex-direction: column;
   }
-  .large-img-box img{
+  .large-img-box img {
     width: 70%;
   }
-  .desktop-stars{
-    background: url('./assets/sprite6.png') no-repeat -2px -42px;
+  .desktop-stars {
+    background: url("./assets/sprite6.png") no-repeat -2px -42px;
     width: 80px;
     height: 15px;
   }
-  .desktop-ratings{
+  .desktop-ratings {
     display: flex;
   }
-  .amazons-choice{
+  .amazons-choice {
     display: flex;
   }
-  .desktop-colors-grid{
+  .desktop-colors-grid {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 1rem;
   }
-  .desktop-color-img img{
+  .desktop-color-img img {
     object-fit: cover;
     width: 3vw;
     height: 6vh;
