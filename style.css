@@ -577,7 +577,7 @@ main {
   .large-img-box img {
     width: 100%;
   }
-  .large-img-box{
+  .large-img-box {
     width: 20vw;
   }
   .desktop-stars {
@@ -604,13 +604,71 @@ main {
     border: 1px solid black;
     border-radius: 10px;
   }
-  aside{
+  aside {
     width: 10vw;
   }
-  .side-card{
+  .side-card {
     border: 1px solid black;
   }
-  .add-cart-btn,.buy-now-btn{
+  .add-cart-btn,
+  .buy-now-btn {
     width: 50%;
+  }
+  .desktop-buy-it-with-section {
+    margin-top: 5rem;
+  }
+  .desktop-buy-it-with-section h2,
+  .desktop-from-the-brand-section h2 {
+    margin-bottom: 3rem;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .plus {
+    font-size: 22px;
+  }
+  .but-it-with-images {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .info-icon {
+    background: url("./assets/sprite6.png") no-repeat -258px -354px;
+    width: 18px;
+    height: 18px;
+  }
+  .background-img {
+    background: url(./assets/brand-background.jpg) no-repeat center center/cover;
+    height: 50vh;
+    position: relative;
+  }
+  .dark-background-title span {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.605);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem;
+    top: 45vh;
+    width: 15vw;
+    position: absolute;
+  }
+  .socks-grid span {
+    color: black;
+  }
+  .socks-grid {
+    position: relative;
+  }
+  .socks-grid-one {
+    top: 1vh;
+    left: 18vw;
+    width: 20vw;
+    position: absolute;
+  }
+  .socks-grid-two {
+    top: 1vh;
+    left: 40vw;
+    width: 20vw;
+    position: absolute;
   }
 }
