@@ -444,7 +444,7 @@ main {
   .desktop-menu {
     display: block;
     background-color: rgb(19, 25, 33);
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -455,7 +455,29 @@ main {
     width: 130px;
     height: 50px;
   }
+  .desktop-searchbar {
+    display: flex;
+  }
 
+  .magnifying-glass {
+    background: url("./assets/sprtie5.png") no-repeat -10px -290px;
+    width: 21px;
+    height: 21px;
+  }
+  .search-button {
+    width: 2vw;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .desktop-searchbar input {
+    width: 70vw;
+    height: 3vh;
+  }
+  .desktop-returns-orders {
+    color: white;
+  }
   .flag img {
     width: 1vw;
   }
@@ -471,6 +493,31 @@ main {
   }
   .desktop-cart {
     color: white;
+    display: flex;
+  }
+  .secondary-menu {
+    display: block;
+    background-color: rgb(35, 47, 62);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-size: 1.8rem;
+
+  }
+  .all-logo{
+    background: url('./assets/sprtie5.png') no-repeat -172px -255px;
+	width: 18px;
+	height: 14px;
+  }
+  .all{
+    display: flex;
+  }
+  .left-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
   }
   .hamburger {
     display: none;
