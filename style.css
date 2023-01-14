@@ -119,6 +119,9 @@ body {
   height: 5vh;
   border-radius: 9px;
 }
+.secondary-menu{
+  display: none;
+}
 .delivery {
   background-color: rgb(55, 71, 90);
   width: 100vw;
