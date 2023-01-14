@@ -148,13 +148,13 @@ body {
 main {
   margin: 1rem;
 }
-.store-link a {
+.store-link a ,.desktop-ratings{
   color: rgb(0, 113, 133);
   text-decoration: none;
 }
 .store-link a,
 .ratings span,
-.product-desc {
+.product-desc,.desktop-ratings {
   font-size: 13px;
 }
 .ratings img {
@@ -574,5 +574,29 @@ main {
   }
   .large-img-box img{
     width: 70%;
+  }
+  .desktop-stars{
+    background: url('./assets/sprite6.png') no-repeat -2px -42px;
+    width: 80px;
+    height: 15px;
+  }
+  .desktop-ratings{
+    display: flex;
+  }
+  .amazons-choice{
+    display: flex;
+  }
+  .desktop-colors-grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1rem;
+  }
+  .desktop-color-img img{
+    object-fit: cover;
+    width: 3vw;
+    height: 6vh;
+    border: 1px solid black;
+    border-radius: 10px;
   }
 }
