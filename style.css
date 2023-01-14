@@ -263,6 +263,15 @@ main {
   color: rgb(0, 118, 0);
   font-size: 18px;
 }
+.stock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.stock > * {
+  margin-left: 5px;
+}
 .stock,
 .about {
   font-size: 15px;
@@ -283,11 +292,11 @@ main {
 
 .add-cart-btn,
 .buy-now-btn {
-  width: 90vw;
   height: 6vh;
   border-radius: 15px;
   margin-top: 1rem;
   border: none;
+  align-self: center;
 }
 .buy-now-btn {
   background-color: #ffa41c;
@@ -448,7 +457,7 @@ main {
   .delivery {
     display: none;
   }
-  *{
+  * {
     font-size: large;
   }
   .desktop-menu {
@@ -628,11 +637,12 @@ main {
     width: 10vw;
   }
   .side-card {
+    padding: 18px 14px;
     border: 1px solid black;
   }
   .add-cart-btn,
   .buy-now-btn {
-    width: 50%;
+    width: 80%;
   }
   .desktop-buy-it-with-section {
     margin-top: 5rem;
