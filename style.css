@@ -161,6 +161,10 @@ main {
 .desktop-ratings {
   font-size: 13px;
 }
+.product-desc h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
 .ratings img {
   width: 20vw;
 }
@@ -578,7 +582,7 @@ main {
     display: none;
   }
   .desktop-main {
-    margin: 0 60rem;
+    margin: 0 21vw;
   }
   .back-to-results {
     color: rgb(86, 89, 89);
@@ -592,11 +596,15 @@ main {
   .desktop-main-four-cols {
     display: flex;
     justify-content: space-between;
-    gap: 10rem;
+    width: 60vw;
   }
   .desktop-main-col-one {
     display: flex;
     flex-direction: column;
+    width: 6vw;
+  }
+  .desktop-main-col-three {
+    margin-left: 4%;
   }
   .img-box img {
     width: 70%;
