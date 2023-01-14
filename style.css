@@ -461,12 +461,12 @@ main {
     font-size: large;
   }
   .desktop-menu {
-    display: block;
     background-color: rgb(19, 25, 33);
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 9rem;
   }
   .desktop-logo-container {
     border: 1px solid transparent;
@@ -485,6 +485,7 @@ main {
   }
   .desktop-searchbar {
     display: flex;
+    width: 75%;
   }
 
   .magnifying-glass {
@@ -500,7 +501,7 @@ main {
     align-items: center;
   }
   .desktop-searchbar input {
-    width: 65vw;
+    width: 100%;
     height: 3vh;
   }
   .desktop-returns-orders {
@@ -522,6 +523,7 @@ main {
   .desktop-cart {
     color: white;
     display: flex;
+    align-items: flex-end;
   }
   .secondary-menu {
     display: block;
@@ -531,6 +533,7 @@ main {
     justify-content: flex-start;
     color: white;
     font-size: 1.8rem;
+    height: 5rem;
   }
   .all-logo {
     background: url("./assets/sprtie5.png") no-repeat -172px -255px;
@@ -638,11 +641,13 @@ main {
   }
   .side-card {
     padding: 18px 14px;
-    border: 1px solid black;
+    border: 1px solid grey;
+    border-radius: 5px;
   }
   .add-cart-btn,
   .buy-now-btn {
-    width: 80%;
+    width: 100%;
+    height: 3.5rem;
   }
   .desktop-buy-it-with-section {
     margin-top: 5rem;
