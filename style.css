@@ -448,6 +448,9 @@ main {
   .delivery {
     display: none;
   }
+  *{
+    font-size: large;
+  }
   .desktop-menu {
     display: block;
     background-color: rgb(19, 25, 33);
