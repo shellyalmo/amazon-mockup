@@ -469,6 +469,9 @@ main {
   * {
     font-size: large;
   }
+  .desktop-main {
+    display: block;
+  }
   .desktop-menu {
     background-color: rgb(19, 25, 33);
     padding: 1rem;
